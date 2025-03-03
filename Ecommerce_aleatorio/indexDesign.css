@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+figure {
+    display: flex;
+    font-size: 0.9rem;
+    padding: 7px 10px;
+}
+
+figcaption{
+    padding-left: 10px;
+}
+
+.navegacao {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.imgbotao {
+    width: 1rem;
+}
+
+.botao {
+    padding-right: 60px;
+}
+
+.botao_ativo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: solid 2px black;
+    border-radius: 50px;
+}
+
+.pesquisar {
+    padding-left: 25rem;
+}
+
+.imgLogo {
+    width: 8rem;
+    margin-top: 10px;
+}
+
+.logo {
+    padding-right: 25rem;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.sloganImg {
+    width: 17rem;
+}
+
+.slogan {
+    width: 25rem;
+}
+
+.cabeçalho_esquerda {
+    padding-left: 20%;
+}
+
+.card_img {
+    width: 10rem;
+
+}
+
+.card_bg {
+    text-align: center;
+    align-content: center;
+    width: 15rem;
+    height: 20rem;
+    background-color: rgba(200, 200, 200, 0.655);
+    border-radius: 30px;
+}
+
+.card {
+    display: flex;
+}
+
+.info {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.add {
+    padding: 10px;
+    background-color: rgb(242, 175, 93);
+    border-radius: 50px;
+}
+
+.saber {
+    padding: 10px;
+    border: solid 1.5px;
+    border-radius: 50px;
+}
+
+.gatos {
+    margin: 2rem;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+h3 {
+    color: rgb(147, 147, 147);
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.seçao {
+    margin-top: 1rem;
+    padding: 3rem;
+}
+
+.footer {
+    display: flex;
+}
+
+.colunas_infos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.linkFooter {
+    color: rgb(189, 189, 189);
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.itemFooter {
+    color: rgb(189, 189, 189);
+    font-size: 0.9rem;
+}
