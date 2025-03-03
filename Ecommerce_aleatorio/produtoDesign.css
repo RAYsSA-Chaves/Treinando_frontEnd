@@ -56,71 +56,10 @@ figcaption{
     padding-left: 25rem;
 }
 
-.cabeçalho {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    margin: 20px;
-}
 
-.sloganImg {
-    width: 17rem;
-}
-
-.slogan {
-    width: 25rem;
-}
-
-.cabeçalho_esquerda {
-    padding-left: 20%;
-}
-
-h1 {
-    margin: 2rem;
-}
-
-.gatos {
-    margin: 2rem;
-}
-
-.card {
-    display: flex;
-}
-
-.card_bg {
-    text-align: center;
-    align-content: center;
-    width: 15rem;
-    height: 20rem;
-    background-color: rgba(200, 200, 200, 0.655);
-    border-radius: 30px;
-}
-
-.card_img {
-    width: 10rem;
-
-}
-
-.info {
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-.add {
-    padding: 10px;
-    background-color: rgb(242, 175, 93);
-    border-radius: 50px;
-}
-
-.saber {
-    padding: 10px;
-    border: solid 1.5px;
-    border-radius: 50px;
-}
-
-h3 {
-    color: rgb(147, 147, 147);
+footer {
+    background-color: black;
+    color: white;
 }
 
 footer {

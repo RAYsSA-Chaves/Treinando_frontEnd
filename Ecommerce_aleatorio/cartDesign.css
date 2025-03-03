@@ -56,71 +56,80 @@ figcaption{
     padding-left: 25rem;
 }
 
-.cabeçalho {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    margin: 20px;
-}
-
-.sloganImg {
-    width: 17rem;
-}
-
-.slogan {
-    width: 25rem;
-}
-
-.cabeçalho_esquerda {
-    padding-left: 20%;
-}
-
 h1 {
-    margin: 2rem;
+    margin: 30px;
+    margin-top: 3rem;
 }
 
-.gatos {
-    margin: 2rem;
-}
-
-.card {
+.tabelas {
     display: flex;
+    margin: 30px;
+    margin-top: 10px;
 }
 
-.card_bg {
+.table1 {
+    width: 50%;
+    border-collapse: collapse;
+    margin-right: 60px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
     text-align: center;
-    align-content: center;
-    width: 15rem;
-    height: 20rem;
-    background-color: rgba(200, 200, 200, 0.655);
-    border-radius: 30px;
 }
 
-.card_img {
-    width: 10rem;
-
+th {
+    background-color: black;
+    color: white;
 }
 
-.info {
-    padding-left: 20px;
-    padding-top: 20px;
+input {
+    width: 50px;
 }
 
-.add {
+.table2 {
+    width: 20%;
+    height: 5rem;
+    border-collapse: collapse;
+}
+
+.gato1_img {
+    width: 3.5rem;
+}
+
+.gato2_img {
+    width: 7rem;
+}
+
+.bordaImg {
+    background-color: rgb(189, 189, 189);
     padding: 10px;
-    background-color: rgb(242, 175, 93);
-    border-radius: 50px;
+    border-radius: 20px;
+    width: 50%;
 }
 
-.saber {
+figure {
+    align-items: center;
+}
+
+button {
+    text-decoration: none;
+    background-color: white;
     padding: 10px;
-    border: solid 1.5px;
     border-radius: 50px;
+    border: solid 1px;
+    cursor: pointer;
 }
 
-h3 {
-    color: rgb(147, 147, 147);
+.sem_format {
+    border: none;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
 
 footer {
