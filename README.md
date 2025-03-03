@@ -1,2 +1,2 @@
-# Treinando_frontEnd
- Irei compartilhsr atividades e projetos que fizer para treinar HTML e CSS.
+# Repositório para "treinos" de FrontEnd
+ Irei compartilhar atividades e projetos que fizer para treinar HTML e CSS.
