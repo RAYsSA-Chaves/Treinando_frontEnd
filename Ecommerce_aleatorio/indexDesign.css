@@ -157,3 +157,7 @@ footer {
     color: rgb(189, 189, 189);
     font-size: 0.9rem;
 }
+
+.cartao {
+    width: 10%;
+}
