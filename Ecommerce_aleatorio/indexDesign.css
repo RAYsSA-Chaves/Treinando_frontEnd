@@ -111,16 +111,14 @@ h1 {
     padding: 10px;
     background-color: rgb(242, 175, 93);
     border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .saber {
     padding: 10px;
     border: solid 1.5px;
     border-radius: 50px;
-}
-
-h3 {
-    color: rgb(147, 147, 147);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 footer {

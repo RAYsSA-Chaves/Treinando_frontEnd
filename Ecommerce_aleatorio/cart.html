@@ -23,19 +23,19 @@
             </div>
 
             <div class="botao">
-                <a>
-                    <figure>
-                        <img src="Icones/user.svg" class="imgbotao">
-                        <figcaption>Perfil</figcaption>
+                <a href="cart.html">
+                    <figure class="botao_ativo">
+                        <img src="Icones/cart_white.svg" class="imgbotao">
+                        <figcaption>Carrinho</figcaption>
                     </figure>
                 </a>
             </div>
 
             <div class="botao">
-                <a href="cart.html">
-                    <figure class="botao_ativo">
-                        <img src="Icones/cart_white.svg" class="imgbotao">
-                        <figcaption>Carrinho</figcaption>
+                <a href="login.html">
+                    <figure>
+                        <img src="Icones/user.svg" class="imgbotao">
+                        <figcaption>Login</figcaption>
                     </figure>
                 </a>
             </div>
@@ -65,13 +65,13 @@
                 <td>
                     <figure>
                         <div class="bordaImg">
-                            <img src="Midia/produto1.png" class="gato1_img">
+                            <img src="" class="gato1_img">
                         </div>
-                        <figcaption>Siamês filhote</figcaption>
+                        <figcaption>--------</figcaption>
                         </figure>
                 </td>
                 <td>
-                    <input type="number" value="1" min="1">
+                    <input type="number" value="0" min="0">
                 </td>
                 <td>
                     <p>R$ 00,00</p>
@@ -83,45 +83,41 @@
                 </td>
             </tr>
             <tr>
-                <td>
-                    <figure>
-                        <div class="bordaImg">
-                            <img src="Midia/produto2.png" class="gato2_img">
-                        </div>
-                        <figcaption>SRD Branco</figcaption>
-                    </figure>
-                </td>
-                <td>
-                    <input type="number" value="1" min="1">
-                </td>
-                <td>
-                    <p>R$ 00,00</p> 
-                </td>
-                <td>
-                    <a href="">
-                        <img src="Icones/xmark.svg" class="imgbotao">
-                    </a>
-                </td>
-            </tr>
         </table>
 
-        <table class="table2">
-            <tr>
-                <th>
-                    <p>TOTAL DO CARRINHO</p>
-                </th>
-                <td>
-                    <p>R$ 00,00</p>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" class="sem_format">
-                    <a href="">
-                        <button type="button">Finalizar compra</button>
-                    </a>
-                </td>
-            </tr>
-        </table>
+        <div class="resumo">
+            <h3>RESUMO DO CARRINHO</h3>
+            <br>
+            <table class="table2">
+                <tr>
+                    <td class="alinhar">
+                        <p>0 Itens</p>
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+
+            <label for="cupom">Cupom de desconto:</label>
+            <br>
+            <input type="text" name="cupom" class="cupom">
+            <br><br>
+
+            <table>
+                <tr>
+                    <td class="alinhar">
+                        <p>Total:</p>
+                    </td>
+                    <td>
+                        <p>R$ 00,00</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+
+            <a href="">
+                <button type="button">Continuar</button>
+            </a>
+        </div>
 
     </div>
     <br><br><br>

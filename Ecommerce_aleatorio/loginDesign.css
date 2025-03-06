@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(189, 189, 189);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navegacao {
+    background-color: white;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    padding-right: 25rem;
+}
+
+.imgLogo {
+    width: 8rem;
+    margin-top: 10px;
+}
+
+figure {
+    display: flex;
+    font-size: 0.9rem;
+    padding: 7px 10px;
+}
+
+figcaption{
+    padding-left: 10px;
+}
+
+.botao_ativo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: solid 2px black;
+    border-radius: 50px;
+}
+
+.imgbotao {
+    width: 1rem;
+}
+
+.botao {
+    padding-right: 60px;
+}
+
+.pesquisar {
+    padding-left: 25rem;
+}
+
+.bg {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+}
+
+.forms {
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    justify-items: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+input {
+    border: none;
+    background-color: rgb(224, 224, 224);
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 3rem;
+    width: 20rem;
+    padding: 5px;
+}
+
+.entrar {
+    display: block;
+}
+
+button {
+    text-decoration: none;
+    background-color: rgb(242, 175, 93);
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    width: 10rem;
+}
+
+.link {
+    display: flex;
+}
+
+.cadastro {
+    color: rgb(174, 172, 172);
+    text-decoration: underline;
+    margin-left: 3px;
+    font-size: 0.8rem;
+}
+
+.cadastroTexto {
+    color: rgb(174, 172, 172);
+    font-size: 0.8rem;
+}
