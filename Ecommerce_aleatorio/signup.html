@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | MeowMart</title>
-    <link rel="stylesheet" href="loginDesign.css">
+    <title>Sign Up | MeowMart</title>
+    <link rel="stylesheet" href="signupDesign.css">
 </head>
 <header>
     <nav>
@@ -52,10 +52,18 @@
 <body>
     <div class="bg">
         <div class="forms">
-            <h2>LOGIN</h2>
+            <h2>CADASTRO</h2>
             <br>
-            <p>Bem-vindo(a) de volta! Entre na sua conta.</p>
+            <p>Bem-vindo(a)! Crie uma nova conta.</p>
             <br><br>
+            <label for="email">Nome</label>
+            <br>
+            <input type="text" name="email">
+            <br>
+            <label for="email">Sobrenome</label>
+            <br>
+            <input type="text" name="email">
+            <br>
             <label for="email">E-mail</label>
             <br>
             <input type="text" name="email">
@@ -64,10 +72,14 @@
             <br>
             <input type="text" name="senha">
             <br>
-            <input type="submit" value="Entrar" class="botaoEntrar">
+            <label for="senha">Confirme a Senha</label>
+            <br>
+            <input type="text" name="senha">
+            <br>
+            <input type="submit" value="Criar conta" class="botaoEntrar">
             <div class="link">
-                <p class="cadastroTexto">Não tem uma conta?</p>
-                <a href="signup.html" class="cadastro">Cadastre-se!</a>
+                <p class="cadastroTexto">Já tem uma conta?</p>
+                <a href="login.html" class="cadastro">Faça login!</a>
             </div>
         </div>
     </div>

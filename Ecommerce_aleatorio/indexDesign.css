@@ -80,8 +80,30 @@ h1 {
     margin: 2rem;
 }
 
+button {
+    width: 15%;
+    height: 2.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.raças {
+    margin-left: 2rem;
+}
+
 .gatos {
     margin: 2rem;
+    margin-right: 3rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
 }
 
 .card {
@@ -92,13 +114,13 @@ h1 {
     text-align: center;
     align-content: center;
     width: 15rem;
-    height: 20rem;
+    height: 17rem;
     background-color: rgba(200, 200, 200, 0.655);
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .card_img {
-    width: 10rem;
+    width: 8rem;
 
 }
 
@@ -110,30 +132,29 @@ h1 {
 .add {
     padding: 10px;
     background-color: rgb(242, 175, 93);
-    border-radius: 50px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .saber {
     padding: 10px;
     border: solid 1.5px;
-    border-radius: 50px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 footer {
     background-color: black;
-    color: white;
 }
 
 .footer {
     display: flex;
+    color: rgb(255, 255, 255);
 }
 
 .seçao {
     margin-top: 1rem;
     padding: 3rem;
-    padding-right: 5rem;
+    width: 255px;
 }
 
 .colunas_infos {
@@ -152,9 +173,10 @@ footer {
 }
 
 .cartao {
-    width: 15%;
+    width: 25%;
 }
 
 .copyright {
     text-align: center;
+    color: white;
 }
