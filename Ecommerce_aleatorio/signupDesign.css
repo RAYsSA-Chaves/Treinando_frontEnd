@@ -11,16 +11,16 @@ a {
 }
 
 .navegacao {
-    background-color: white;
     height: 5rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .logo {
-    padding-right: 25rem;
+    margin-left: 5rem;
+    flex: 1;
 }
 
 .imgLogo {
@@ -38,6 +38,12 @@ figcaption{
     padding-left: 10px;
 }
 
+.navBotoes {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
 .botao_ativo {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -50,32 +56,35 @@ figcaption{
 }
 
 .botao {
-    padding-right: 60px;
+    padding: 0rem 5rem;
 }
 
 .pesquisar {
-    padding-left: 25rem;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
 }
 
 .bg {
     display: grid;
     place-items: center;
-    height: 130vh;
+    height: 120vh;
 }
 
 .forms {
     width: 30%;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     justify-items: center;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
     padding: 30px;
 }
 
 input {
     border: solid 0.5px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 3rem;
     width: 20rem;
     padding: 5px;
@@ -89,12 +98,9 @@ label {
     cursor: pointer;
     border: none;
     background-color: rgb(242, 175, 93);
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
-}
-
-p {
-    color: rgb(174, 172, 172);
+    border-radius: 50px;
 }
 
 .entrar {
