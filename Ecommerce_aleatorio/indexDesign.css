@@ -19,7 +19,8 @@ a {
 }
 
 .logo {
-    margin-left: 5rem;
+    margin-left: 4rem;
+    flex: 1;
 }
 
 .imgLogo {
@@ -35,6 +36,12 @@ figure {
 
 figcaption{
     padding-left: 10px;
+}
+
+.navBotoes {
+    flex: 2;
+    display: flex;
+    justify-content: center;
 }
 
 .botao_ativo {
@@ -53,7 +60,10 @@ figcaption{
 }
 
 .pesquisar {
-    margin-right: 5rem;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
 }
 
 .cabeçalho {
@@ -77,34 +87,56 @@ figcaption{
 }
 
 h1 {
-    margin-left: 5rem;
+    margin-left: 4rem;
     margin-bottom: 2rem;
 }
 
-button {
-    width: 10%;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-    padding: 10px;
-    border: solid 1px;
-    border-radius: 50px;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
+.categoriasContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.Itemcategoria {
+    display: block;
+    text-align: center;
+}
+
+.categoriaImg {
+    width: 7rem;
+}
+
+.categoriaBg {
+    width: 9rem;
+    height: 11rem;
+    background-color: rgba(200, 200, 200, 0.655);
+    border-radius: 5px;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.seta {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
 }
 
 .raças {
-    margin-left: 5rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .gatos {
-    margin: 2rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    padding: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
     background-color: white;
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
     padding: 30px;
 }
 
@@ -115,15 +147,14 @@ button {
 .card_bg {
     text-align: center;
     align-content: center;
-    width: 15rem;
-    height: 17rem;
+    width: 12rem;
+    height: 15rem;
     background-color: rgba(200, 200, 200, 0.655);
-    border-radius: 10px;
-}
+    border-radius: 5px;
+} 
 
 .card_img {
     width: 8rem;
-
 }
 
 .info {
@@ -134,31 +165,30 @@ button {
 .add {
     padding: 10px;
     background-color: rgb(242, 175, 93);
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .saber {
     padding: 10px;
-    border: solid 1.5px;
-    border-radius: 10px;
+    border: solid 1px;
+    border-radius: 50px;
 }
 
 footer {
     background-color: black;
-    display: flex;
-    flex-direction: column;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     color: rgb(255, 255, 255);
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .seçao {
+    flex-direction: column;
     margin-top: 3rem;
     margin-right: 5rem;
 }
@@ -179,7 +209,7 @@ footer {
 }
 
 .cartao {
-    width: 8%;
+    width: 3rem;
 }
 
 .copyright {

@@ -13,13 +13,14 @@ a {
 .navegacao {
     height: 5rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .logo {
-    padding-right: 25rem;
+    margin-left: 5rem;
+    flex: 1;
 }
 
 .imgLogo {
@@ -37,6 +38,12 @@ figcaption{
     padding-left: 10px;
 }
 
+.navBotoes {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
 .botao_ativo {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -49,57 +56,46 @@ figcaption{
 }
 
 .botao {
-    padding-right: 60px;
+    padding: 0rem 5rem;
 }
 
 .pesquisar {
-    padding-left: 25rem;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
 }
 
 h1 {
-    margin: 30px;
+    margin-left: 4rem;
     margin-top: 4rem;
 }
 
 .tabelas {
     display: flex;
-    margin: 30px;
-    margin-top: 10px;
+    justify-content: space-between;
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 
 .table1 {
     width: 60%;
     border-collapse: collapse;
-    margin-right: 150px;
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
 }
 
 th {
-    background-color: black;
-    color: white;
+    text-align: left;
+    padding: 10px;
 }
 
-input {
-    width: 50px;
-}
-
-.table2 {
-    border-collapse: collapse;
-}
-
-.alinhar {
-    padding: 0%;
+td {
     text-align: left;
 }
 
 .bordaImg {
     background-color: rgba(200, 200, 200, 0.655);
-    padding: 70px;
-    border-radius: 10px;
+    padding: 80px;
+    border-radius: 5px;
     width: 50%;
 }
 
@@ -107,36 +103,38 @@ figure {
     align-items: center;
 }
 
-.resumo {
-    padding: 35px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+input {
+    width: 50px;
+    height: 30px;
+    padding: 2px;
 }
 
-.cupom {
-    width: 100%;
-    margin-top: 10px;
-    height: 10%;
-    padding: 5px;
-    border-radius: 10px;
-    border: solid 0.5px;
+.table2 {
+    border-collapse: collapse;
 }
 
 .alinhar {
-    text-align: right;
+    padding: 0px;
+    text-align: left;
+}
+
+.resumo {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+    height: 20rem;
 }
 
 button {
     background-color: rgb(242, 175, 93);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 50px;
     border: none;
     cursor: pointer;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
     font-size: 1rem;
     width: 100%;
 }
-
 
 footer {
     background-color: black;
@@ -144,13 +142,16 @@ footer {
 
 .footer {
     display: flex;
+    justify-content: space-between;
     color: rgb(255, 255, 255);
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .seçao {
-    margin-top: 1rem;
-    padding: 3rem;
-    width: 255px;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-right: 5rem;
 }
 
 .colunas_infos {
@@ -169,7 +170,7 @@ footer {
 }
 
 .cartao {
-    width: 25%;
+    width: 3rem;
 }
 
 .copyright {

@@ -11,16 +11,16 @@ a {
 }
 
 .navegacao {
-    background-color: white;
     height: 5rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .logo {
-    padding-right: 25rem;
+    margin-left: 5rem;
+    flex: 1;
 }
 
 .imgLogo {
@@ -38,6 +38,12 @@ figcaption{
     padding-left: 10px;
 }
 
+.navBotoes {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
 .botao_ativo {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -50,11 +56,14 @@ figcaption{
 }
 
 .botao {
-    padding-right: 60px;
+    padding: 0rem 5rem;
 }
 
 .pesquisar {
-    padding-left: 25rem;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
 }
 
 .bg {
