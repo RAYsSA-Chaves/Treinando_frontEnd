@@ -69,7 +69,7 @@ figcaption{
 .bg {
     display: grid;
     place-items: center;
-    height: 120vh;
+    height: 150vh;
 }
 
 .forms {
